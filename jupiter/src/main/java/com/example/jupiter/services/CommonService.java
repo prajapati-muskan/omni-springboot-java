@@ -1,2 +1,5 @@
-package com.example.jupiter.services;public interface CommonService {
+package com.example.jupiter.services;
+
+public interface CommonService {
+    public void overrideTestMeth();
 }

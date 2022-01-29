@@ -1,2 +1,5 @@
-package com.example.jupiter.sorts;public interface SortArray {
+package com.example.jupiter.sorts;
+
+public interface SortArray {
+    public int[] sortArray(int[] nums);
 }
