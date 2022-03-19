@@ -8,6 +8,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class JupiterApplication {
     public static void main(String[] args) {
         ConfigurableApplicationContext context = SpringApplication.run(JupiterApplication.class, args);
+        context.registerShutdownHook();
     }
 
 }

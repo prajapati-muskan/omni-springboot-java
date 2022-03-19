@@ -33,17 +33,18 @@ public class Runner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        int[] nums = new int[]{2, 5, 89, 3, 8, 1};
+        int[] test = new int[]{2, 5, 89, 3, 8, 1};
+        int[] nums = test;
         System.out.println("Selection sort " + Arrays.toString(selectionSort.sortArray(nums)));
-        nums = new int[]{2, 5, 89, 3, 8, 1};
+        nums = test;
         System.out.println("Bubble sort " + Arrays.toString(bubbleSort.sortArray(nums)));
-        nums = new int[]{2, 5, 89, 3, 8, 1};
+        nums = test;
         System.out.println("Insertion sort " + Arrays.toString(insertionSort.sortArray(nums)));
-        nums = new int[]{2, 5, 89, 3, 8, 1};
+        nums = test;
         System.out.println("Quick sort " + Arrays.toString(quickSort.sortArray(nums)));
-        nums = new int[]{2, 5, 89, 3, 8, 1};
+        nums = test;
         System.out.println("Merge sort " + Arrays.toString(mergeSort.sortArray(nums)));
-        nums = new int[]{2, 5, 89, 3, 8, 1};
+        nums = test;
         System.out.println("Heap sort " + Arrays.toString(heapSort.sortArray(nums)));
     }
 }
